@@ -1,0 +1,54 @@
+TEST           ERRORE RELATIVO       ERRORE PRIMA COMP.    AUTOVALORE NUMERO 7
+----           ---------------       ------------------    -----------------------
+easy-10        4.242156e-016         6.661338e-016         7.0000000000000018e+000
+easy-100       2.019904e-015         3.330669e-015         7.0000000000000071e+000
+easy-1000      2.654198e-014         1.554312e-014         7.0000000000008669e+000
+
+rand-10        5.607561e-015         1.132427e-014         (FACOLTATIVO) -0.585507498601182 + 0.489062574356588 i
+rand-100       8.760746e-014         2.065015e-014         (FACOLTATIVO) -0.233002874267956 - 0.649427760252666 i
+rand-1000      3.827585e-012         5.317968e-013         (FACOLTATIVO) +0.0764897509186779 + 0.873025147423362 i
+rand-5000      1.102259e-011         1.227463e-012         (FACOLTATIVO) +0.00160575793130691 + 0.761682081965311 i
+
+bad-10         6.287577e-007         4.387160e-007         5.9999999999999964e+000
+bad-100        9.304715e-006         9.864899e-006         6.0000000000000124e+000
+bad-500        8.763526e-005         8.822490e-005         5.9999999999999591e+000
+bad-1000       7.556303e-005         7.484208e-005         5.9999999999985612e+000
+
+verybad-10     5.264102e-005         4.405734e-005         6.0000000000000018e+000
+verybad-100    1.197916e-003         1.140304e-003         6.0000000000000169e+000
+verybad-500    2.451563e-003         2.454550e-003         6.0000000000007674e+000
+verybad-1000   1.921933e-002         1.907311e-002         6.0000000000004370e+000
+
+eig-10                  n.a.                  n.a.         1.212787579702451
+eig-20                  n.a.                  n.a.         0.616452408799773
+eig-30                  n.a.                  n.a.         0.386165255443546
+eig-40                  n.a.                  n.a.         0.251158046413501
+eig-50                  n.a.                  n.a.         0.183588762510966
+eig-100                 n.a.                  n.a.         0.105819747712772
+eig-1000                n.a.                  n.a.         0.005791355927680
+eig-2000                n.a.                  n.a.         0.004093899533759
+eig-5000                n.a.                  n.a.         0.001634536227649
+
+easy,bad,verybad : matrici SIMMETRICHE E DEFINITE POSITIVE (autovalori REALI E POSITIVI)
+rand : matrici senza una particolare struttura (autovalori COMPLESSI)
+eig: matrici SIMMETRICHE (autovalori REALI)
+
+ERRORE RELATIVO = lunghezza(soluzione_esatta-soluzione_calcolata)/lunghezza(soluzione_esatta)
+ERRORE PRIMA COMP. = abs(soluzione_calcolata(1)-1)
+AUTOVALORE NUMERO 7 = ordinare gli autovalori in ordine crescente e prendere il SETTIMO
+
+Ricordo che per "lunghezza di un vettore" si intende la lunghezza euclidea (o norma),
+ovvero la radice quadrata della somma dei quadrati delle componenti.
+
+- Tutti i sistemi lineari hanno come soluzione il vettore fatto da tutti uni: [1 1 1 1 1 1 1 1 .....]
+- I sistemi lineari da risolvere sono solo quelli relativi alle matrici easy, rand, bad e verybad (NON eig)
+- Gli autovalori sono da trovare per le matrici easy, bad, verybad e eig (NON rand). Gli autovalori sono tutti
+  reali perche' le matrici sono simmetriche. Prima di riportare l'autovalore 7, bisogna ordinarli in ordine
+  crescente.
+- FACOLTATIVO: le matrici rand non sono simmetriche e quindi i loro autovalori sono (in generale) numeri
+  complessi. Come esercizio facoltativo potete calcolare anche quelli, e riportare l'autovalore numero 7 dopo
+  averli ordinati in ordine crescente secondo il modulo (sono numeri complessi).
+
+Dovete ritrovare i miei stessi risultati, tranne che per la soluzione lineare dei sistemi lineari con le
+matrici verybad; in questi ultimi infatti gli errori floating point sono molto grandi (perdiamo 14 cifre
+significative!) e quindi il risultato può dipendere dalla libreria usata.

@@ -1,0 +1,66 @@
+TEST        	ERRORE RELATIVO     	ERRORE PRIMA COMP.	AUTOVALORE NUMERO 7	TIME TO SOLVE	TIME TO EIGEN
+------------	--------------------	------------------	-------------------	-------------	-------------
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-eig-5000.dat
+    eig-5000	n.a.	n.a.	0.001635	 0ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-rand-5000.dat
+linear system!
+   rand-5000	9.787832e-12	1.521339e-11	n.a.	101644ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-verybad-100.dat
+linear system!
+ verybad-100	3.283544e-03	3.125627e-03	6.000000	 2ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-bad-100.dat
+linear system!
+     bad-100	2.258293e-05	2.394252e-05	6.000000	 1ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-eig-40.dat
+      eig-40	n.a.	n.a.	0.251158	 0ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-eig-100.dat
+     eig-100	n.a.	n.a.	0.105820	 0ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-rand-1000.dat
+linear system!
+   rand-1000	2.547025e-12	4.767298e-13	n.a.	653ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-eig-2000.dat
+    eig-2000	n.a.	n.a.	0.004094	 0ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-eig-50.dat
+      eig-50	n.a.	n.a.	0.183589	 0ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-eig-20.dat
+      eig-20	n.a.	n.a.	0.616452	 0ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-eig-30.dat
+      eig-30	n.a.	n.a.	0.386165	 0ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-verybad-500.dat
+linear system!
+ verybad-500	1.065932e-02	1.067230e-02	6.000000	71ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-bad-10.dat
+linear system!
+      bad-10	3.118816e-07	2.176155e-07	6.000000	 0ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-easy-10.dat
+linear system!
+     easy-10	3.510833e-16	2.220446e-16	7.000000	 0ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-eig-10.dat
+      eig-10	n.a.	n.a.	1.212788	 0ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-bad-500.dat
+linear system!
+     bad-500	4.622912e-05	4.654016e-05	6.000000	71ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-verybad-10.dat
+linear system!
+  verybad-10	4.993346e-04	4.179128e-04	6.000000	 0ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-eig-1000.dat
+    eig-1000	n.a.	n.a.	0.005791	 0ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-easy-100.dat
+linear system!
+    easy-100	2.853360e-15	1.110223e-15	7.000000	 0ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-rand-10.dat
+linear system!
+     rand-10	4.711062e-15	8.659740e-15	n.a.	 0ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-verybad-1000.dat
+linear system!
+verybad-1000	2.926093e-02	2.903832e-02	6.000000	653ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-bad-1000.dat
+linear system!
+    bad-1000	2.279306e-04	2.257559e-04	6.000000	651ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-rand-100.dat
+linear system!
+    rand-100	1.001901e-13	8.237855e-14	n.a.	 1ms
+/home/simon/Dropbox/Simon/courses/metodi_calcolo_scientifico/LuEig/matrice/matrice-easy-1000.dat
+linear system!
+   easy-1000	3.174443e-14	3.264056e-14	7.000000	649ms
+
