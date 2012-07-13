@@ -1,6 +1,6 @@
 TEST        	ERRORE RELATIVO 	ERRORE PRIMA COMP.	AUTOVALORE NUMERO 7	TIME TO SOLVE	TIME TO EIGEN
 ------------	----------------	------------------	-------------------	-------------	-------------
-     easy-10	    3.510833e-16	      2.220446e-16	           7.000000	 	0ms		 		0ms
+     easy-10	    3.510833e-16	      2.220446e-16	           7.000000	 	0ms		 			0ms
     easy-100	    2.853360e-15	      1.110223e-15	           7.000000	 	1ms		 			0ms
    easy-1000	    3.174443e-14	      3.264056e-14	           7.000000		670ms		 		9ms
 
